@@ -1,5 +1,5 @@
 import './App.css';
-import { useState, useEffect } from 'react';
+
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import ScrollUp from './components/scrollUp/ScrollUp';
