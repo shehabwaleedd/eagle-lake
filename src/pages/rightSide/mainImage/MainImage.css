@@ -4,9 +4,43 @@
     position: relative;
     border-radius: 1rem;
 }
+
+.upper__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--container-color);
+    border-radius: 0.7rem;
+    padding: 1rem;
+    position: absolute;
+    width: 95%;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.upper__container h1 {
+    font-size: 1rem;
+    color: var(--container-color);
+    font-family: 'GeneralSans-Regular';
+    letter-spacing: 0.2rem;
+}
+
 .mainImage img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 1rem;
+}
+
+.imageStyle {
+    transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1);
+    opacity: 1;
+}
+
+.displayNone {
+    opacity: 0;
+}
+
+.displayBlock {
+    opacity: 1;
 }
