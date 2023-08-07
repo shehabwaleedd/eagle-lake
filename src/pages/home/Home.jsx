@@ -5,10 +5,12 @@ import './Home.css'
 import Intro from './leftSide/Intro/Intro'
 import About from './leftSide/about/About'
 
-const Home = () => {
+
+
+const Home = ({navOpen, setNavOpen, isMobile, setIsMobile, setIsTablet, isTablet}) => {
     return (
         <div className='home'>
-            <Navbar />
+            <Navbar navOpen={navOpen} setNavOpen={setNavOpen} isMobile={isMobile} setIsMobile={setIsMobile} setIsTablet={setIsTablet} isTablet={isTablet}/>
             <div className="left__side">
                 <Intro />
                 <About />

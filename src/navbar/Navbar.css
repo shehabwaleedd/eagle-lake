@@ -5,11 +5,16 @@
     width: 49%;
     height: 4rem;
     z-index: 1000;
-    transition: background-color 400ms;
+
     margin: 1rem;
     border-radius: 1rem;
     border: 0.7px solid var(--border-color);
     background-color: var(--background-color);
+}
+
+.nav.open {
+    border: 1px solid var(--container-color);
+    background-color: var(--nav-overlay-color);
 }
 
 .nav__container {
@@ -46,6 +51,10 @@
     stroke-linecap: round;
 }
 
+.line.open {
+    stroke: var(--container-color);
+}
+
 .ham1 .top {
     stroke-dasharray: 40 139;
 }
@@ -77,4 +86,17 @@
     font-family: 'GeneralSans-Light';
     font-size: 1.5rem;
     margin-right: 1rem;
+}
+
+.nav-overlay {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	bottom: 0;
+	width: 51.2%;
+	height: 100vh;
+	transition: all 4s cubic-bezier(0.16, 1, 0.3, 1);
+	background-color: var(--nav-overlay-color);
+    left: 1.4rem;
+    border-radius: 1rem;
 }
