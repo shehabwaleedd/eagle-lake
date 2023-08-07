@@ -1,3 +1,9 @@
+.intro {
+    border: 1px solid var(--border-color);
+    border-radius: 1.2rem;
+    padding: 0.3rem;
+}
+
 .intro__container {
     display: flex;
     flex-direction: column;

@@ -20,7 +20,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    gap: 4rem;
+    gap: 4em;
 }
 
 .upperBox__container h1 {
@@ -40,9 +40,11 @@
     border-radius: 1rem;
     padding: 1rem;
     position: relative;
-    bottom: 0;
     background-color: var(--nav-overlay-color);
     cursor: pointer;
+    position: absolute;
+    bottom: 1rem;
+    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .resv__button span {
@@ -50,4 +52,8 @@
     color: var(--container-color);
     font-family: 'GeneralSans-Regular';
     letter-spacing: 0.1rem;
+}
+
+.resv__button:hover {
+    background-color: var(--accent-color);
 }

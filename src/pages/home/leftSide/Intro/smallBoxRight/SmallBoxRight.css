@@ -25,7 +25,8 @@
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
-    height: 70%;
+    height: 40%;
+
 }
 
 .smallRight__card {
@@ -35,8 +36,12 @@
     width: 100%;
     height: 100%;
     gap: 1rem;
-    border-bottom: 0.5px solid var(--border-color);
-    padding-bottom: 1rem;
+    border-top: 0.5px solid var(--border-color);
+    padding: 1rem 0;
+}
+
+.smallRight__card:last-child {
+    padding-bottom: 0;
 }
 
 .smallRight__card-end {
@@ -47,14 +52,21 @@
 }
 
 .smallRight__card h1 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     color: var(--title-color);
     font-family: 'GeneralSans-Regular';
     letter-spacing: 0.1rem;
+    text-transform: uppercase;
 }
 
 .smallRight__card-end p {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    font-family: 'GeneralSans-Light';
+    letter-spacing: 0.1rem;
+}
+.smallRight__card-end a {
+    font-size: 0.9rem;
     color: var(--accent-color);
     font-family: 'GeneralSans-Light';
     letter-spacing: 0.1rem;

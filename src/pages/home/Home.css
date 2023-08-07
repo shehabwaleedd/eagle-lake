@@ -11,8 +11,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 97vh;
-    border: 1px solid var(--border-color);
+    min-height: 97vh;
     border-radius: 1.3rem;
     padding: 0.5rem;
 }
@@ -34,8 +33,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 46.5%;
     height: 97vh;
     border: 1px solid var(--border-color);
     border-radius: 1.3rem;
+    position: fixed;
+    right: 0;
+    z-index: 1;
 }
