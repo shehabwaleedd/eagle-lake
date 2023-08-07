@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import './Navbar.css'
 const Navbar = ({ setNavOpen, navOpen, setIsMobile, setIsTablet, isTablet, isMobile }) => {
     const location = useLocation();
@@ -51,9 +51,9 @@ const Navbar = ({ setNavOpen, navOpen, setIsMobile, setIsTablet, isTablet, isMob
                     <div className="nav__logo">
                         <h1 style={{ color: navOpen ? "" : "" }}>Eagle Lake</h1>
                     </div>
-                    <div className="nav__right">
+                    <Link to="/menu" className="nav__right">
                         <h1 style={{ color: navOpen ? "var(--container-color)" : "var(--title-color)", transitionDuration: navOpen ? "1s" : "1.5s" }}>Menu</h1>
-                    </div>
+                    </Link>
                 </div>
             </nav>
             <div className="nav-overlay" style={{ top: navOpen ? "1rem" : "-200rem", transitionDuration: navOpen ? "1s" : "1.5s" }}></div>
