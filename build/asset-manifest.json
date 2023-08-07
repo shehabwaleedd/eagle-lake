@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e484c6e4.css",
+    "main.js": "/static/js/main.9fff36ad.js",
+    "static/js/787.40f88452.chunk.js": "/static/js/787.40f88452.chunk.js",
+    "static/media/klara-kulikova-yjQDnOhGE34-unsplash.jpg": "/static/media/klara-kulikova-yjQDnOhGE34-unsplash.864c4a2f58e984b3cc10.jpg",
+    "static/media/GeneralSans-LightItalic.ttf": "/static/media/GeneralSans-LightItalic.01f39fefaea383e46bde.ttf",
+    "static/media/GeneralSans-Italic.ttf": "/static/media/GeneralSans-Italic.61b5c6351467c3e67236.ttf",
+    "static/media/GeneralSans-Light.ttf": "/static/media/GeneralSans-Light.69935ec696c32e0cb38b.ttf",
+    "static/media/GeneralSans-Regular.ttf": "/static/media/GeneralSans-Regular.6d91885b9c7fa66bdd05.ttf",
+    "static/media/GeneralSans-ExtralightItalic.ttf": "/static/media/GeneralSans-ExtralightItalic.f2b0d5013d4b60046410.ttf",
+    "static/media/GeneralSans-Extralight.ttf": "/static/media/GeneralSans-Extralight.e9e1615018c62dee6364.ttf",
+    "static/media/GeneralSans-LightItalic.woff": "/static/media/GeneralSans-LightItalic.b3f37670fedaabb03a25.woff",
+    "static/media/GeneralSans-Italic.woff": "/static/media/GeneralSans-Italic.38fe83c7db536c3d94dd.woff",
+    "static/media/GeneralSans-Light.woff": "/static/media/GeneralSans-Light.705af1342b8d9e53554c.woff",
+    "static/media/GeneralSans-Regular.woff": "/static/media/GeneralSans-Regular.c8cfd56b3d5c42904672.woff",
+    "static/media/GeneralSans-ExtralightItalic.woff": "/static/media/GeneralSans-ExtralightItalic.637cc7b537db1b5556d0.woff",
+    "static/media/GeneralSans-Extralight.woff": "/static/media/GeneralSans-Extralight.efc4ce019c1e039a0ca4.woff",
+    "static/media/GeneralSans-LightItalic.woff2": "/static/media/GeneralSans-LightItalic.c8c13d9aa739ec1adb02.woff2",
+    "static/media/GeneralSans-Italic.woff2": "/static/media/GeneralSans-Italic.8c6daf7c32037313da66.woff2",
+    "static/media/GeneralSans-Light.woff2": "/static/media/GeneralSans-Light.59797635a5ce50599b80.woff2",
+    "static/media/GeneralSans-Regular.woff2": "/static/media/GeneralSans-Regular.33c07568e483102927ef.woff2",
+    "static/media/GeneralSans-ExtralightItalic.woff2": "/static/media/GeneralSans-ExtralightItalic.3d55e7e4573d13e89567.woff2",
+    "static/media/GeneralSans-Extralight.woff2": "/static/media/GeneralSans-Extralight.d6a4332df60f058537bf.woff2",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.e484c6e4.css.map": "/static/css/main.e484c6e4.css.map",
+    "main.9fff36ad.js.map": "/static/js/main.9fff36ad.js.map",
+    "787.40f88452.chunk.js.map": "/static/js/787.40f88452.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e484c6e4.css",
+    "static/js/main.9fff36ad.js"
+  ]
+}
