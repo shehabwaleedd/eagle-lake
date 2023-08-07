@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 :root {
   --header-height: 3rem;
   --hue: 0;
@@ -8,7 +10,8 @@
   --body-color: #fff7f3;
   --container-color: #f5f2f0;
   --accent-color-darker: #244224;
-  --border-color: hsl(var(--hue), var(--sat), 65%);
+  --border-color: hsl(var(--hue), var(--sat), 80%);
+  --nav-overlay-color: #1b1b1b;
   --accent-color: #973636;
   --accent: var(--pink);
   --background-color: #FAF7ED;
