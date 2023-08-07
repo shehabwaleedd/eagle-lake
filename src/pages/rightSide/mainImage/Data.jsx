@@ -20,18 +20,6 @@ const Data = [
         TextContainer: 'W'
     },
     {
-        ImageNo: '3',
-        ImageName: 'img_snow',
-        ImageSrc: Img3,
-        TextContainer: 'W'
-    },
-    {
-        ImageNo: '4',
-        ImageName: 'img_band_ny',
-        ImageSrc: Img4,
-        TextContainer: 'We'
-    },
-    {
         ImageNo: '5',
         ImageName: 'img_mountains',
         ImageSrc: Img5,

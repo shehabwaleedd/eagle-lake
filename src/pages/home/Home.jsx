@@ -1,13 +1,10 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react';
 import Navbar from '../../navbar/Navbar'
-import RightSide from '../rightSide/RightSide'
 import './Home.css'
 import Intro from './leftSide/Intro/Intro'
 import About from './leftSide/about/About'
 import Reservation from './leftSide/reservation/Reservation'
-
-
-
+import MainImage from '../rightSide/mainImage/MainImage'
 const Home = ({ navOpen, setNavOpen, isMobile, setIsMobile, setIsTablet, isTablet }) => {
     return (
         <div className='home'>
@@ -18,7 +15,7 @@ const Home = ({ navOpen, setNavOpen, isMobile, setIsMobile, setIsTablet, isTable
                 <Reservation />
             </div>
             <div className="right__side">
-                <RightSide />
+                <MainImage />
             </div>
         </div>
     )

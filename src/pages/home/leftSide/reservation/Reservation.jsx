@@ -1,8 +1,12 @@
 import React from 'react'
 import './Reservation.css'
 import { Link } from 'react-router-dom'
+import { AiOutlineArrowUp } from 'react-icons/ai'
 
 const Reservation = () => {
+    const handleScrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
     return (
         <section className='reservation'>
             <div className="reservation__container">
@@ -44,7 +48,8 @@ const Reservation = () => {
             </div>
             <div className="reservation__footer">
                 <p>© Eagle Lake 2023</p>
-                <span>Developed & Designed by <Link to="https://shehabwaleedd.vercel.app/">Shehab</Link></span>
+                <span>Developed & Designed by <Link to="https://shehabwaleedd.vercel.app/" target='_blank'>Shehab</Link></span>
+                <span onClick={handleScrollToTop}>Scroll to top <AiOutlineArrowUp /></span>
             </div>
         </section>
     )

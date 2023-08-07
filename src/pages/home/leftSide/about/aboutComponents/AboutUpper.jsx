@@ -8,7 +8,7 @@ const AboutUpper = () => {
         <section className='aboutUpper'>
             <div className="aboutUpper__container">
                 <h1>Cafeteria</h1>
-                <p>Our cafe in Saint Tropez is a great place to meet up with friends over a cup of coffee. We take pride in serving the best coffee in town and strive to create a welcoming atmosphere for all our guests. Our owners believe in running an honest business and serving our customers with care and integrity. Come and experience our humble cafe and enjoy good music.</p>
+                <p>Eagle Lake Breakfast Coffee Shop" is a delightful haven nestled in the heart of Sri Lanka, offering a charming and inviting ambiance for all coffee and breakfast enthusiasts. Located by the tranquil Tinara River in Weligama, this picturesque café is a must-visit destination for locals and travelers alike.</p>
                 <div className="aboutUpper__lower">
                     <div className="aboutUpper__lower-imgs">
                         <img src={partner1} alt="" />

@@ -11,7 +11,7 @@ const MainImage = () => {
         <div className='mainImage'>
             <div className="upper__container">
                 <TextSliderAuto TextData={Data} SlideInterValTime={1000} />
-                <FindUs />
+            <FindUs />
             </div>
             <ImageSliderAuto ImageData={Data} SlideInterValTime={10000} />
         </div>
