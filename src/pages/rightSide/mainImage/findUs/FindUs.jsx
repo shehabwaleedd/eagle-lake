@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
-import { useState} from 'react'
+import { useState  } from 'react'
 import './FindUs.css'
 import { FiArrowUpRight } from 'react-icons/fi'
 import { MdLocationOn } from 'react-icons/md'
@@ -16,6 +16,7 @@ const FindUs = () => {
     }
     return (
         <motion.div className='findus'
+            style={{ height: hovered ? "16.75rem" : "5.75rem" }}
             initial={{ height: "6.75rem", transition: { staggerChildren: 3.5, duration: 0.7, ease: [0.42, 0, 0.58, 1] } }}
             animate={{ height: hovered ? "16.75rem" : "7.75rem", transition: { staggerChildren: 3.5, duration: 0.4, ease: [0.42, 0, 0.58, 1] } }}
             exit={{ height: "6.75rem", transition: { staggerChildren: 3.5, duration: 0.7, ease: [0.42, 0, 0.58, 1] } }}
@@ -28,7 +29,11 @@ const FindUs = () => {
                     </motion.div>
                     <AnimatePresence mode='wait'>
                         {hovered && (
-                            <motion.div>
+                            <motion.div
+                                initial={{ opacity: 0, height: "5.75rem", transition: { staggerChildren: 3.5, duration: 1, ease: [0.42, 0, 0.58, 1] } }}
+                                animate={{ opacity: 1, height: '16.75rem', transition: { staggerChildren: 3.5, duration: 1, ease: [0.42, 0, 0.58, 1] } }}
+                                exit={{ opacity: 0, height: "0.1rem", transition: { staggerChildren: 3.5, duration: 1, ease: [0.42, 0, 0.58, 1] } }}
+                            >
                                 {<iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.132941295083!2d80.4420112!3d5.9764251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae1156f7250d59f%3A0xbfa04fa5aa9a5c8f!2sThe%20Eagle%20Lake!5e0!3m2!1sen!2slb!4v1691413037741!5m2!1sen!2slb"
                                     width="200"
