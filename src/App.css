@@ -11,6 +11,9 @@
   --container-color: #f5f2f0;
   --accent-color-darker: #244224;
   --border-color: hsl(var(--hue), var(--sat), 80%);
+  --box-shadow: -4px 2px 20px 1px rgba(125, 57, 57, 0.05);
+	--webkit-shadow: -4px 6px 31px 0px rgba(93, 110, 96, 0.6);
+	--moz-box-shadow: -4px 6px 31px 0px rgba(93, 110, 96, 0.6);
   --nav-overlay-color: #1b1b1b;
   --accent-color: #973636;
   --accent: var(--pink);
