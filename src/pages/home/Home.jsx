@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import Navbar from '../../navbar/Navbar'
 import './Home.css'
 import Intro from './leftSide/Intro/Intro'
