@@ -5,6 +5,7 @@ import Intro from './leftSide/Intro/Intro'
 import About from './leftSide/about/About'
 import Reservation from './leftSide/reservation/Reservation'
 import MainImage from '../rightSide/mainImage/MainImage'
+import Menu from '../menu/Menu';
 const Home = ({ navOpen, setNavOpen, isMobile, setIsMobile, setIsTablet, isTablet }) => {
     return (
         <div className='home'>
@@ -12,6 +13,7 @@ const Home = ({ navOpen, setNavOpen, isMobile, setIsMobile, setIsTablet, isTable
             <div className="left__side">
                 <Intro />
                 <About />
+                <Menu />
                 <Reservation />
             </div>
             <div className="right__side">
