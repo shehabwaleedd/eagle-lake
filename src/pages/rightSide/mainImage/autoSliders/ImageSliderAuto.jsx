@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Img5 from "../../../../assets/nathan-dumlao-zUNs99PGDg0-unsplash.webp"
+import Img5 from "../../../../assets/nathan-dumlao-JLPoB3Gahcc-unsplash.webp"
 import Img6 from "../../../../assets/celine-ylmz-L2ost-ZEmK8-unsplash.webp"
 import Img7 from "../../../../assets/klara-kulikova-yjQDnOhGE34-unsplash.webp"
 

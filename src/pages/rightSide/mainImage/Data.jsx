@@ -1,6 +1,5 @@
 import Img1 from '../../../assets/celine-ylmz-L2ost-ZEmK8-unsplash.webp'
 import Img2 from '../../../assets/klara-kulikova-yjQDnOhGE34-unsplash.webp'
-import Img5 from "../../../assets/nathan-dumlao-zUNs99PGDg0-unsplash.webp"
 import Img6 from "../../../assets/pariwat-pannium-MSuQCVvi6U0-unsplash.webp"
 import Img7 from "../../../assets/nathan-dumlao-JLPoB3Gahcc-unsplash.webp"
 
@@ -15,12 +14,6 @@ const Data = [
         ImageNo: '2',
         ImageName: 'img_nature',
         ImageSrc: Img2,
-        TextContainer: 'W'
-    },
-    {
-        ImageNo: '5',
-        ImageName: 'img_mountains',
-        ImageSrc: Img5,
         TextContainer: 'W'
     },
     {
