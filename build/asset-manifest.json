@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1bf6826.css",
-    "main.js": "/static/js/main.65c64e40.js",
+    "main.css": "/static/css/main.3770c1bc.css",
+    "main.js": "/static/js/main.95b5633b.js",
     "static/js/787.40f88452.chunk.js": "/static/js/787.40f88452.chunk.js",
-    "static/media/nathan-dumlao-zUNs99PGDg0-unsplash.webp": "/static/media/nathan-dumlao-zUNs99PGDg0-unsplash.28be6cd0b363a64ebd12.webp",
-    "static/media/klara-kulikova-yjQDnOhGE34-unsplash.webp": "/static/media/klara-kulikova-yjQDnOhGE34-unsplash.3dcb74fbc06ab5793a7c.webp",
-    "static/media/celine-ylmz-L2ost-ZEmK8-unsplash.webp": "/static/media/celine-ylmz-L2ost-ZEmK8-unsplash.0c463ee71d38166cbdba.webp",
-    "static/media/pariwat-pannium-MSuQCVvi6U0-unsplash.webp": "/static/media/pariwat-pannium-MSuQCVvi6U0-unsplash.f5526a90e8e5014ae15d.webp",
-    "static/media/nathan-dumlao-JLPoB3Gahcc-unsplash.webp": "/static/media/nathan-dumlao-JLPoB3Gahcc-unsplash.2f94bab39f37fb982f12.webp",
-    "static/media/partner1.webp": "/static/media/partner1.c2ad1feba0a529d32933.webp",
+    "static/media/nathan-dumlao-zUNs99PGDg0-unsplash.webp": "/static/media/nathan-dumlao-zUNs99PGDg0-unsplash.a2ced2dc5f0a109eeabf.webp",
+    "static/media/klara-kulikova-yjQDnOhGE34-unsplash.webp": "/static/media/klara-kulikova-yjQDnOhGE34-unsplash.c3306376169628cc628e.webp",
+    "static/media/celine-ylmz-L2ost-ZEmK8-unsplash.webp": "/static/media/celine-ylmz-L2ost-ZEmK8-unsplash.b2ac95c07c571d1cd452.webp",
     "static/media/nathan-dumlao-8d8v3YSgIBo-unsplash.webp": "/static/media/nathan-dumlao-8d8v3YSgIBo-unsplash.c9edabc6a5d53dce0398.webp",
+    "static/media/nathan-dumlao-JLPoB3Gahcc-unsplash.webp": "/static/media/nathan-dumlao-JLPoB3Gahcc-unsplash.e27f19763a8856749955.webp",
+    "static/media/pariwat-pannium-MSuQCVvi6U0-unsplash.webp": "/static/media/pariwat-pannium-MSuQCVvi6U0-unsplash.faee3768f75dfef9aa57.webp",
     "static/media/363883885_798770038573052__n.webp": "/static/media/363883885_798770038573052_4465978458432389113_n.9e132097ab7224e099b2.webp",
+    "static/media/partner1.webp": "/static/media/partner1.dfcfaa7b15a55003c561.webp",
     "static/media/victor-rutka-4FujjkcI40g-unsplash.webp": "/static/media/victor-rutka-4FujjkcI40g-unsplash.ce4f6623e816fdaa7014.webp",
     "static/media/Cappucino.webp": "/static/media/Cappucino.beb1c3a40aece8925d08.webp",
-    "static/media/partner2.webp": "/static/media/partner2.448b0425990e2e9d5eb2.webp",
     "static/media/364960912___n.webp": "/static/media/364960912_1234070913857951_759749088496526533_n.cc571f4c98f06f67a2b5.webp",
     "static/media/mango_fresh_juice.webp": "/static/media/mango_fresh_juice.8591b003b010bda76fc7.webp",
     "static/media/espresso.webp": "/static/media/espresso.4a7207b205e7de4a5c47.webp",
     "static/media/pink_cocktail.webp": "/static/media/pink_cocktail.dd597024e225a38fb773.webp",
+    "static/media/partner2.webp": "/static/media/partner2.13ebe54a2013ac8669e8.webp",
     "static/media/Snapinsta.app_365458990_817424473216067__n_1080.webp": "/static/media/Snapinsta.app_365458990_817424473216067_4087620759488714421_n_1080.17d45d456ead1d258e97.webp",
     "static/media/pariwat-pannium-hMVvFEgCveQ-unsplash.webp": "/static/media/pariwat-pannium-hMVvFEgCveQ-unsplash.f1bcbe278eff985cb5c1.webp",
     "static/media/hot_latte.webp": "/static/media/hot_latte.1d7df995a63905400a1b.webp",
@@ -47,12 +47,12 @@
     "static/media/iced-white-chocolate-mocha.webp": "/static/media/iced-white-chocolate-mocha.5aa6cf75299e103dac92.webp",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.a1bf6826.css.map": "/static/css/main.a1bf6826.css.map",
-    "main.65c64e40.js.map": "/static/js/main.65c64e40.js.map",
+    "main.3770c1bc.css.map": "/static/css/main.3770c1bc.css.map",
+    "main.95b5633b.js.map": "/static/js/main.95b5633b.js.map",
     "787.40f88452.chunk.js.map": "/static/js/787.40f88452.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1bf6826.css",
-    "static/js/main.65c64e40.js"
+    "static/css/main.3770c1bc.css",
+    "static/js/main.95b5633b.js"
   ]
 }
