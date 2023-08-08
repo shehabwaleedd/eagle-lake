@@ -25,61 +25,71 @@ const Data = [
                 name: 'Blonde Coffee',
                 image: blondeCoffee,
                 description: 'A mild and light coffee made from blonde roasted beans, offering a smooth flavor and delicate aroma.',
-                ingredients: ['Blonde roasted coffee beans', 'Hot water']
+                ingredients: ['Blonde roasted coffee beans', ' Hot water'],
+                price: "LKR 750"
             },
             {
                 name: 'Cappuccino',
                 image: cappuccino,
                 description: 'A classic espresso-based drink topped with steamed milk and a layer of frothy milk foam.',
-                ingredients: ['Espresso', 'Steamed milk', 'Milk foam']
+                ingredients: ['Espresso', 'Steamed milk', ' Milk foam'],
+                price: "LKR 750"
             },
             {
                 name: 'Hot Latte',
                 image: hotLatte,
                 description: 'A comforting beverage made with espresso and steamed milk, perfect for a chilly morning.',
-                ingredients: ['Espresso', 'Steamed milk']
+                ingredients: ['Espresso', ' Steamed milk'],
+                price: "LKR 750"
             },
             {
                 name: 'Iced Latte',
                 image: icedLatte,
                 description: 'A refreshing iced version of the classic latte, served cold over ice.',
-                ingredients: ['Espresso', 'Cold milk', 'Ice']
+                ingredients: ['Espresso', ' Cold milk', ' Ice'],
+                price: "LKR 750"
             },
             {
                 name: 'Macchiato',
                 image: macchiato,
                 description: 'An espresso "stained" with a small amount of milk, creating a strong and bold coffee flavor.',
-                ingredients: ['Espresso', 'A touch of milk']
+                ingredients: ['Espresso', ' A touch of milk'],
+                price: "LKR 750"
             },
             {
                 name: 'Cinnamon Coffee',
                 image: cinnamonCoffe,
                 description: 'A fragrant coffee infused with the warm and comforting flavor of cinnamon.',
-                ingredients: ['Coffee', 'Cinnamon', 'Hot water']
+                ingredients: ['Coffee', ' Cinnamon', ' Hot water'],
+                price: "LKR 750"
             },
             {
                 name: 'Espresso',
                 image: espresso,
                 description: 'A concentrated shot of bold and rich coffee, the foundation for many coffee drinks.',
-                ingredients: ['Espresso']
+                ingredients: ['Espresso'],
+                price: "LKR 750"
             },
             {
                 name: 'Iced White Chocolate Mocha',
                 image: icedWhiteChocolateMocha,
                 description: 'A cold and indulgent coffee beverage with white chocolate and espresso, perfect for a sweet treat.',
-                ingredients: ['Espresso', 'White chocolate', 'Cold milk', 'Ice']
+                ingredients: ['Espresso', 'White chocolate', 'Cold milk', 'Ice'],
+                price: "LKR 750"
             },
             {
                 name: 'Cortado',
                 image: cortado,
                 description: 'A balanced espresso drink made with equal parts espresso and steamed milk.',
-                ingredients: ['Espresso', 'Steamed milk']
+                ingredients: ['Espresso', 'Steamed milk'],
+                price: "LKR 750"
             },
             {
                 name: 'Chocolate Milkshake',
                 image: chocolateMilkshake,
                 description: 'A creamy and rich milkshake made with chocolate and topped with whipped cream.',
-                ingredients: ['Chocolate syrup', 'Milk', 'Vanilla ice cream', 'Whipped cream']
+                ingredients: ['Chocolate syrup', ' Milk', ' Vanilla ice cream', ' Whipped cream'],
+                price: "LKR 750"
             }
         ]
     },
@@ -90,43 +100,50 @@ const Data = [
                 name: 'Sesame Egg Toast',
                 image: sesameEggToast,
                 description: 'A delightful breakfast option featuring toasted bread topped with eggs and sprinkled with sesame seeds.',
-                ingredients: ['Eggs', 'Bread', 'Sesame seeds', 'Butter']
+                ingredients: ['Eggs', ' Bread', ' Sesame seeds', ' Butter'],
+                price: "LKR 750"
             },
             {
                 name: 'Mango Podding',
                 image: mangoPodding,
                 description: 'A fresh and fruity breakfast dish made with creamy mango and a blend of natural flavors.',
-                ingredients: ['Mango', 'Greek yogurt', 'Honey']
+                ingredients: ['Mango', ' Greek yogurt', ' Honey'],
+                price: "LKR 750"
             },
             {
                 name: 'Avocado Toast',
                 image: avvocadoToast,
                 description: 'A nutritious and satisfying breakfast choice with creamy avocado spread over toasted bread.',
-                ingredients: ['Avocado', 'Bread', 'Lemon juice', 'Salt']
+                ingredients: ['Avocado', ' Bread', ' Lemon juice', ' Salt'],
+                price: "LKR 750"
             },
             {
                 name: 'French Toast',
                 image: frenchToast,
                 description: 'Classic French toast made with slices of bread soaked in a mixture of eggs and milk, then cooked to perfection.',
-                ingredients: ['Bread slices', 'Eggs', 'Milk', 'Vanilla extract', 'Cinnamon', 'Maple syrup']
+                ingredients: ['Bread slices', 'Eggs', ' Milk', ' Vanilla extract', ' Cinnamon', ' Maple syrup'],
+                price: "LKR 750"
             },
             {
                 name: 'Pineapple Juice',
                 image: pineappleJuice,
                 description: 'A refreshing and tropical pineapple juice, made from fresh pineapple fruit.',
-                ingredients: ['Fresh pineapple', 'Water', 'Sugar']
+                ingredients: ['Fresh pineapple', ' Water', ' Sugar'],
+                price: "LKR 750"
             },
             {
                 name: 'Mango Juice',
                 image: mangoJuice,
                 description: 'A sweet and tangy mango juice, freshly squeezed from ripe mangoes.',
-                ingredients: ['Ripe mangoes', 'Water', 'Sugar']
+                ingredients: ['Ripe mangoes', ' Water', ' Sugar'],
+                price: "LKR 750"
             },
             {
                 name: 'Pink Cocktail',
                 image: pinkCocktail,
                 description: 'A colorful and vibrant pink cocktail made with a blend of fruity flavors.',
-                ingredients: ['Grenadine', 'Pineapple juice', 'Orange juice', 'Gin', 'Ice']
+                ingredients: ['Grenadine', ' Pineapple juice', ' Orange juice', ' Gin', ' Ice'],
+                price: "LKR 750"
             }
         ]
     }

@@ -105,40 +105,41 @@
 
 .preview__modal {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(227, 222, 205, 0.522);
+    top: 0%;
+    left: 46.8rem;
+    width: 48%;
+    height: 103%;
+    background: rgba(250, 247, 237, 0.652);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(141, 141, 141, 0.3);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 99999999;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
 }
 
 .preview__content {
-    width: 90%;
-    height: 100%;
-    position: absolute;
-    left: 10%;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    left: 1%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .preview__content img {
-    width: 50%;
-    height: 50%;
+    width: 98%;
+    height: 100%;
     object-fit: cover;
     transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
     border-radius: 1.2rem;
+    margin-top: 0.3rem;
 }
 .preview__close {
     position: absolute;
@@ -166,11 +167,11 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .preview__description h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     text-transform: capitalize;
     color: var(--nav-overlay-color);
     font-family: 'Lobster';
@@ -188,18 +189,26 @@
 }
 
 .prev__description_ingri span {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: capitalize;
     color: var(--nav-overlay-color);
     font-family: 'GeneralSans-Regular';
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
 }
 .prev__description_ingri p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: capitalize;
     color: var(--nav-overlay-color);
     font-family: 'GeneralSans-Regular';
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.prev__description_price span {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    font-family: 'GeneralSans-Regular';
+    letter-spacing: 0.1rem;
 }
 
 @media (max-width: 560px) {

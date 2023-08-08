@@ -13,6 +13,7 @@
     flex-direction: column;
     transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
 }
+
 .nav__links {
     position: relative;
     top: 0;
@@ -44,7 +45,7 @@
 
 .nav__links ul li {
     list-style: none;
-    font-family: 'GeneralSans-Regular';
+    font-family: 'Lobster';
     font-size: 1.5rem;
     color: var(--text-color);
     cursor: pointer;
@@ -114,9 +115,10 @@
 }
 
 .nav__logo h1 {
-    font-family: 'GeneralSans-Regular';
-    font-size: 1.5rem;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
     color: var(--accent-color);
+    letter-spacing: 0.14rem;
 }
 
 .nav__right {
@@ -125,10 +127,11 @@
 }
 
 .nav__right h1 {
-    font-family: 'GeneralSans-Light';
+    font-family: 'Lobster';
     font-size: 1.5rem;
     margin-right: 1rem;
     color: var(--accent-color);
+    letter-spacing: 0.1rem;
 }
 
 @media (max-width: 560px) {

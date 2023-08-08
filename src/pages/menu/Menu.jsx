@@ -5,22 +5,23 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const Menu = () => {
     const [selectedImage, setSelectedImage] = useState(null);
-    const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedDescription, setSelectedDescription] = useState(null);
     const [selectedIngredients, setSelectedIngredients] = useState(null);
     const [selectedName, setSelectedName] = useState(null);
+    const [selectedPrice, setSelectedPrice] = useState(null);
 
-    const openPreview = (image, index, description, ingredients, name) => {
+    const openPreview = (image, description, ingredients, name, price) => {
         setSelectedImage(image);
-        setCurrentIndex(index);
         setSelectedDescription(description);
         setSelectedIngredients(ingredients);
         setSelectedName(name);
+        setSelectedPrice(price);
     };
 
     const closeItem = () => {
         setSelectedImage(null)
     }
+
     useEffect(() => {
         const handleKeyDown = (e) => {
             if (e.key === 'Escape') {
@@ -35,14 +36,6 @@ const Menu = () => {
         };
     }, []);
 
-    useEffect(() => {
-        if(selectedImage) {
-            document.body.style.overflow = 'hidden';
-        } else {
-            document.body.style.overflow = 'unset';
-        }
-    }, []);
-
     return (
         <>
             <section className='menu' id='menu'>
@@ -50,11 +43,16 @@ const Menu = () => {
                     <h1>Taste Our Menu</h1>
                     <div className="menu__items">
                         {Data.map((category, index) => (
-                            <div key={index} className="menu__category">
+                            <div key={index} className={`menu__category`}>
                                 <h2>{category.category}</h2>
-                                <div className="menu__category-items">
-                                    {category.items.map(({ image, name, description, ingredients }, index) => (
-                                        <div key={index} className="menu__item" onClick={() => openPreview(image, index, description, ingredients, name)}>
+                                <div className={`menu__category-items`}>
+                                    {category.items.map(({ image, name, description, ingredients, price }, index) => (
+                                        <div
+                                            key={index}
+                                            className="menu__item"
+                                            onMouseEnter={() => openPreview(image, description, ingredients, name, price)}
+                                            onMouseLeave={closeItem}
+                                        >
                                             <img src={image} alt={name} />
                                             <p>{name}</p>
                                         </div>
@@ -69,20 +67,23 @@ const Menu = () => {
                 {selectedImage && (
                     <motion.div className='preview__modal'
                         initial={{ opacity: 0, y: 100 }}
-                        animate={{ opacity: 1, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5 }}
                         exit={{ opacity: 0, y: 100 }}
                     >
-                        <div className='preview__close'>
-                            <button onClick={closeItem}>X</button>
-                        </div>
+                        {/* <div className='preview__close'>
+                                <button onClick={closeItem}>X</button>
+                            </div> */}
                         <motion.div className='preview__content'>
                             <motion.img initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} exit={{ opacity: 0, y: 100 }} src={selectedImage} alt='Preview' />
                             <div className="preview__description">
                                 <h1>{selectedName}</h1>
                                 <div className="prev__description_ingri">
                                     <span>{selectedDescription}</span>
-                                    <p>Ingredients: {selectedIngredients}</p>
+                                    <p>Ingredients: {selectedIngredients.join(', ')}</p>
+                                </div>
+                                <div className="prev__description_price">
+                                    <span>Price: {selectedPrice}</span>
                                 </div>
                             </div>
                         </motion.div>
