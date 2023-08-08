@@ -44,7 +44,7 @@ const LeftSideContact = () => {
             </div>
             <div className="contact__footer">
                 <p>© Eagle Lake 2023</p>
-                <span>Developed & Coded by <Link to="https://shehabwaleedd.vercel.app/" target='_blank'>Shehab</Link></span>
+                <span>Developed & Coded by <Link to="https://shehabwaleedd.vercel.app/" target='_blank'>Shehab Waleed</Link></span>
             </div>
         </section>
     )

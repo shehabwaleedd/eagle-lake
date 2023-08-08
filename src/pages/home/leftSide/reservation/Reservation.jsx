@@ -48,7 +48,7 @@ const Reservation = () => {
             </div>
             <div className="reservation__footer">
                 <p>© Eagle Lake 2023</p>
-                <span>Developed & Coded by <Link to="https://shehabwaleedd.vercel.app/" target='_blank'>Shehab</Link></span>
+                <span>Developed & Coded by <Link to="https://shehabwaleedd.vercel.app/" target='_blank'>Shehab Waleed</Link></span>
                 <span onClick={handleScrollToTop}>Scroll to top <AiOutlineArrowUp /></span>
             </div>
         </section>
