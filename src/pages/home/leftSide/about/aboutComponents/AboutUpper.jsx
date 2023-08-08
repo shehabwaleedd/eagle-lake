@@ -1,7 +1,7 @@
 import React from 'react'
 import "./AboutComponents.css"
-import partner1 from "../../../../../assets/partner1.jpg"
-import partner2 from "../../../../../assets/partner2.jpg"
+import partner1 from "../../../../../assets/partner1.webp"
+import partner2 from "../../../../../assets/partner2.webp"
 
 const AboutUpper = () => {
     return (

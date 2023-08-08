@@ -1,8 +1,8 @@
-import Img1 from '../../../assets/celine-ylmz-L2ost-ZEmK8-unsplash.jpg'
-import Img2 from '../../../assets/klara-kulikova-yjQDnOhGE34-unsplash.jpg'
-import Img5 from "../../../assets/nathan-dumlao-zUNs99PGDg0-unsplash.jpg"
-import Img6 from "../../../assets/pariwat-pannium-MSuQCVvi6U0-unsplash.jpg"
-import Img7 from "../../../assets/nathan-dumlao-JLPoB3Gahcc-unsplash.jpg"
+import Img1 from '../../../assets/celine-ylmz-L2ost-ZEmK8-unsplash.webp'
+import Img2 from '../../../assets/klara-kulikova-yjQDnOhGE34-unsplash.webp'
+import Img5 from "../../../assets/nathan-dumlao-zUNs99PGDg0-unsplash.webp"
+import Img6 from "../../../assets/pariwat-pannium-MSuQCVvi6U0-unsplash.webp"
+import Img7 from "../../../assets/nathan-dumlao-JLPoB3Gahcc-unsplash.webp"
 
 const Data = [
     {

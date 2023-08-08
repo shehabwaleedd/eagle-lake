@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Img5 from "../../../../assets/nathan-dumlao-zUNs99PGDg0-unsplash.jpg"
-import Img6 from "../../../../assets/celine-ylmz-L2ost-ZEmK8-unsplash.jpg"
-import Img7 from "../../../../assets/klara-kulikova-yjQDnOhGE34-unsplash.jpg"
+import Img5 from "../../../../assets/nathan-dumlao-zUNs99PGDg0-unsplash.webp"
+import Img6 from "../../../../assets/celine-ylmz-L2ost-ZEmK8-unsplash.webp"
+import Img7 from "../../../../assets/klara-kulikova-yjQDnOhGE34-unsplash.webp"
 
 const ImageSliderAuto = (props) => {
     const [scrollPosition, setScrollPosition] = useState(0);
