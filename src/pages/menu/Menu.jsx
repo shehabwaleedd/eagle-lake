@@ -18,7 +18,7 @@ const Menu = () => {
         setSelectedName(name);
     };
 
-    const closeItem = (e) => {
+    const closeItem = () => {
         setSelectedImage(null)
     }
     useEffect(() => {
@@ -34,6 +34,15 @@ const Menu = () => {
             window.removeEventListener('keydown', handleKeyDown);
         };
     }, []);
+
+    useEffect(() => {
+        if(selectedImage) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+    }, []);
+
     return (
         <>
             <section className='menu' id='menu'>
@@ -60,7 +69,7 @@ const Menu = () => {
                 {selectedImage && (
                     <motion.div className='preview__modal'
                         initial={{ opacity: 0, y: 100 }}
-                        animate={{ opacity: 1, y: 20 }}
+                        animate={{ opacity: 1, y: 30 }}
                         transition={{ duration: 0.5 }}
                         exit={{ opacity: 0, y: 100 }}
                     >
