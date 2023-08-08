@@ -15,7 +15,7 @@ function App() {
       <AnimatePresence mode='wait'>
         <Routes location={location} key={location.pathname} >
           <Route path='/' element={<Home navOpen={navOpen} setNavOpen={setNavOpen} isMobile={isMobile} setIsMobile={setIsMobile} setIsTablet={setIsTablet} isTablet={isTablet} />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/contact' element={<Contact navOpen={navOpen} setNavOpen={setNavOpen} isMobile={isMobile} setIsMobile={setIsMobile} setIsTablet={setIsTablet} isTablet={isTablet} />} />
         </Routes>
       </AnimatePresence>
     </div>

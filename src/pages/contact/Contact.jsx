@@ -1,10 +1,12 @@
 import React from 'react'
 import './Contact.css'
 import LeftSideContact from './leftSideContact/LeftSideContact'
+import Navbar from '../../navbar/Navbar'
 
-const Contact = () => {
+const Contact = ({ navOpen, setNavOpen, isMobile, setIsMobile, setIsTablet, isTablet }) => {
     return (
         <section className='contact'>
+            <Navbar navOpen={navOpen} setNavOpen={setNavOpen} isMobile={isMobile} setIsMobile={setIsMobile} setIsTablet={setIsTablet} isTablet={isTablet} />
             <div className="left__side-contact">
                 <LeftSideContact />
             </div>

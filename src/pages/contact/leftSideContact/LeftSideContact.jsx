@@ -32,14 +32,14 @@ const LeftSideContact = () => {
                     <div className="smallRight__card">
                         <h1>IG</h1>
                         <div className="smallRight__card-end-contact">
-                            <Link to="https://www.instagram.com/the.eagle.lake/">@eaglelake</Link>
+                            <Link to="https://www.instagram.com/the.eagle.lake/" target='_blank'>@eaglelake</Link>
                             <FiArrowUpRight style={{ color: "var(--accent-color)", fontSize: "1.5rem" }} />
                         </div>
                     </div>
                     <div className="smallRight__card">
                         <h1>Tinara River, Weligama 81700, Sri Lanka</h1>
                         <div className="smallRight__card-end-contact">
-                            <Link to="https://www.instagram.com/the.eagle.lake/">Google Maps</Link>
+                            <Link to="https://www.google.com/maps/place/The+Eagle+Lake/@5.976425,80.442011,15z/data=!4m6!3m5!1s0x3ae1156f7250d59f:0xbfa04fa5aa9a5c8f!8m2!3d5.9764251!4d80.4420112!16s%2Fg%2F11sw0zn8gl?hl=en&entry=ttu" target='_blank'>Google Maps</Link>
                             <FiArrowUpRight style={{ color: "var(--accent-color)", fontSize: "1.5rem" }} />
                         </div>
                     </div>
