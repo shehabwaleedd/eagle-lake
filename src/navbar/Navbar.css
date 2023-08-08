@@ -92,7 +92,7 @@
 .line {
     fill: none;
     transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-    stroke: var(--text-color);
+    stroke: var(--accent-color);
     stroke-width: 2.5;
     stroke-linecap: round;
 }
@@ -128,6 +128,7 @@
     font-family: 'GeneralSans-Light';
     font-size: 1.5rem;
     margin-right: 1rem;
+    color: var(--accent-color);
 }
 
 @media (max-width: 560px) {

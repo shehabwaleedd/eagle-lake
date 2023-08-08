@@ -1,13 +1,9 @@
 import React from 'react'
 import './LeftSideContact.css'
-import { AiOutlineArrowUp } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
 import { FiArrowUpRight } from 'react-icons/fi'
 const LeftSideContact = () => {
-    const handleScrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    }
     return (
         <section className='contact_left'>
             <div className="contact_left-container">
@@ -48,8 +44,7 @@ const LeftSideContact = () => {
             </div>
             <div className="contact__footer">
                 <p>© Eagle Lake 2023</p>
-                <span>Developed & Designed by <Link to="https://shehabwaleedd.vercel.app/" target='_blank'>Shehab</Link></span>
-                <span onClick={handleScrollToTop}>Scroll to top <AiOutlineArrowUp /></span>
+                <span>Developed & Coded by <Link to="https://shehabwaleedd.vercel.app/" target='_blank'>Shehab</Link></span>
             </div>
         </section>
     )
