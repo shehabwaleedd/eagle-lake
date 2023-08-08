@@ -8,7 +8,7 @@ import MainImage from '../rightSide/mainImage/MainImage'
 import Menu from '../menu/Menu';
 const Home = ({ navOpen, setNavOpen, isMobile, setIsMobile, setIsTablet, isTablet }) => {
     return (
-        <div className='home'>
+        <section className='home'>
             <Navbar navOpen={navOpen} setNavOpen={setNavOpen} isMobile={isMobile} setIsMobile={setIsMobile} setIsTablet={setIsTablet} isTablet={isTablet} />
             <div className="left__side">
                 <Intro />
@@ -19,7 +19,7 @@ const Home = ({ navOpen, setNavOpen, isMobile, setIsMobile, setIsTablet, isTable
             <div className="right__side">
                 <MainImage />
             </div>
-        </div>
+        </section>
     )
 }
 
