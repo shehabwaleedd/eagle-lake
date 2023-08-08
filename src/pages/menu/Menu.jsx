@@ -46,12 +46,14 @@ const Menu = () => {
                             <div key={index} className={`menu__category`}>
                                 <h2>{category.category}</h2>
                                 <div className={`menu__category-items`}>
-                                    {category.items.map(({ image, name, description, ingredients, price }, index) => (
+                                    {category.items.map(({ image, name, description, ingredients, price, img_300px }, index) => (
                                         <div
                                             key={index}
                                             className="menu__item"
                                             onMouseEnter={() => openPreview(image, description, ingredients, name, price)}
                                             onMouseLeave={closeItem}
+                                            loading='lazy'
+                                            srcSet={[`${img_300px}?w=300&format=webp 300w`]}
                                         >
                                             <img src={image} alt={name} />
                                             <p>{name}</p>
