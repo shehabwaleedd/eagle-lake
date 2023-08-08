@@ -55,8 +55,8 @@ const Navbar = ({ setNavOpen, navOpen, setIsMobile, setIsTablet, isTablet, isMob
                         <h1 style={{ color: navOpen ? "var(--container-color)" : "var(--title-color)", transitionDuration: navOpen ? "1s" : "1.5s" }}>Menu</h1>
                     </a>
                 </div>
+                <div className="nav-overlay" style={{ top: navOpen ? "-1rem" : "-200rem", transitionDuration: navOpen ? "1s" : "1.5s" }}></div>
             </nav>
-            <div className="nav-overlay" style={{ top: navOpen ? "1rem" : "-200rem", transitionDuration: navOpen ? "1s" : "1.5s" }}></div>
         </>
     )
 }

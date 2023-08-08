@@ -194,11 +194,21 @@
     font-family: 'GeneralSans-Regular';
     letter-spacing: 0.2rem;
 }
-
 .prev__description_ingri p {
     font-size: 1.2rem;
     text-transform: capitalize;
     color: var(--nav-overlay-color);
     font-family: 'GeneralSans-Regular';
     letter-spacing: 0.2rem;
+}
+
+@media (max-width: 560px) {
+    .menu__category-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .menu__item img {
+        height: 50%;
+        width: 50%;
+        object-fit: cover;
+    }
 }

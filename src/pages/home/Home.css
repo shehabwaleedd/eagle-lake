@@ -42,3 +42,13 @@
     z-index: 1;
 }
 
+
+
+@media (max-width: 560px) {
+    .home {
+    grid-template-columns: repeat(1, 1fr);
+}
+    .right__side {
+        display: none;
+    }
+}
