@@ -23,44 +23,64 @@ const Data = [
         items: [
             {
                 name: 'Blonde Coffee',
-                image: blondeCoffee
+                image: blondeCoffee,
+                description: 'A mild and light coffee made from blonde roasted beans, offering a smooth flavor and delicate aroma.',
+                ingredients: ['Blonde roasted coffee beans', 'Hot water']
             },
             {
                 name: 'Cappuccino',
-                image: cappuccino
+                image: cappuccino,
+                description: 'A classic espresso-based drink topped with steamed milk and a layer of frothy milk foam.',
+                ingredients: ['Espresso', 'Steamed milk', 'Milk foam']
             },
             {
                 name: 'Hot Latte',
-                image: hotLatte
+                image: hotLatte,
+                description: 'A comforting beverage made with espresso and steamed milk, perfect for a chilly morning.',
+                ingredients: ['Espresso', 'Steamed milk']
             },
             {
                 name: 'Iced Latte',
-                image: icedLatte
+                image: icedLatte,
+                description: 'A refreshing iced version of the classic latte, served cold over ice.',
+                ingredients: ['Espresso', 'Cold milk', 'Ice']
             },
             {
                 name: 'Macchiato',
-                image: macchiato
+                image: macchiato,
+                description: 'An espresso "stained" with a small amount of milk, creating a strong and bold coffee flavor.',
+                ingredients: ['Espresso', 'A touch of milk']
             },
             {
                 name: 'Cinnamon Coffee',
-                image: cinnamonCoffe
+                image: cinnamonCoffe,
+                description: 'A fragrant coffee infused with the warm and comforting flavor of cinnamon.',
+                ingredients: ['Coffee', 'Cinnamon', 'Hot water']
             },
             {
                 name: 'Espresso',
-                image: espresso
+                image: espresso,
+                description: 'A concentrated shot of bold and rich coffee, the foundation for many coffee drinks.',
+                ingredients: ['Espresso']
             },
             {
                 name: 'Iced White Chocolate Mocha',
-                image: icedWhiteChocolateMocha
+                image: icedWhiteChocolateMocha,
+                description: 'A cold and indulgent coffee beverage with white chocolate and espresso, perfect for a sweet treat.',
+                ingredients: ['Espresso', 'White chocolate', 'Cold milk', 'Ice']
             },
             {
                 name: 'Cortado',
-                image: cortado
+                image: cortado,
+                description: 'A balanced espresso drink made with equal parts espresso and steamed milk.',
+                ingredients: ['Espresso', 'Steamed milk']
             },
             {
                 name: 'Chocolate Milkshake',
-                image: chocolateMilkshake
-            },
+                image: chocolateMilkshake,
+                description: 'A creamy and rich milkshake made with chocolate and topped with whipped cream.',
+                ingredients: ['Chocolate syrup', 'Milk', 'Vanilla ice cream', 'Whipped cream']
+            }
         ]
     },
     {
@@ -68,35 +88,48 @@ const Data = [
         items: [
             {
                 name: 'Sesame Egg Toast',
-                image: sesameEggToast
+                image: sesameEggToast,
+                description: 'A delightful breakfast option featuring toasted bread topped with eggs and sprinkled with sesame seeds.',
+                ingredients: ['Eggs', 'Bread', 'Sesame seeds', 'Butter']
             },
             {
                 name: 'Mango Podding',
-                image: mangoPodding
+                image: mangoPodding,
+                description: 'A fresh and fruity breakfast dish made with creamy mango and a blend of natural flavors.',
+                ingredients: ['Mango', 'Greek yogurt', 'Honey']
             },
             {
                 name: 'Avocado Toast',
-                image: avvocadoToast
+                image: avvocadoToast,
+                description: 'A nutritious and satisfying breakfast choice with creamy avocado spread over toasted bread.',
+                ingredients: ['Avocado', 'Bread', 'Lemon juice', 'Salt']
             },
             {
                 name: 'French Toast',
-                image: frenchToast
+                image: frenchToast,
+                description: 'Classic French toast made with slices of bread soaked in a mixture of eggs and milk, then cooked to perfection.',
+                ingredients: ['Bread slices', 'Eggs', 'Milk', 'Vanilla extract', 'Cinnamon', 'Maple syrup']
             },
             {
                 name: 'Pineapple Juice',
-                image: pineappleJuice
+                image: pineappleJuice,
+                description: 'A refreshing and tropical pineapple juice, made from fresh pineapple fruit.',
+                ingredients: ['Fresh pineapple', 'Water', 'Sugar']
             },
             {
                 name: 'Mango Juice',
-                image: mangoJuice
+                image: mangoJuice,
+                description: 'A sweet and tangy mango juice, freshly squeezed from ripe mangoes.',
+                ingredients: ['Ripe mangoes', 'Water', 'Sugar']
             },
             {
                 name: 'Pink Cocktail',
-                image: pinkCocktail
-            },
+                image: pinkCocktail,
+                description: 'A colorful and vibrant pink cocktail made with a blend of fruity flavors.',
+                ingredients: ['Grenadine', 'Pineapple juice', 'Orange juice', 'Gin', 'Ice']
+            }
         ]
     }
-]
+];
 
 export default Data;
-

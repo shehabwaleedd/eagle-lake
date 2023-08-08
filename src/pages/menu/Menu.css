@@ -77,6 +77,7 @@
     gap: 1rem;
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 
 .menu__item img {
@@ -86,6 +87,12 @@
     border-radius: 1rem;
     pointer-events: none;
     user-select: none;
+    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.menu__item:hover img {
+    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+    transform: scale(1.05);
 }
 
 .menu__item p {
@@ -94,4 +101,104 @@
     color: var(--title-color);
     font-family: 'GeneralSans-Regular';
     letter-spacing: 0.1rem;
+}
+
+.preview__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(227, 222, 205, 0.522);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(141, 141, 141, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.preview__content {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.preview__content img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+    border-radius: 1.2rem;
+}
+.preview__close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+}
+
+.preview__close button {
+    width: 2.3rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+    border-radius: 0.1rem;
+    font-size: 2em;
+    color: var(--nav-overlay-color);
+    background-color: transparent;
+    font-family: 'GeneralSans-Regular';
+}
+
+.preview__description {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.preview__description h1 {
+    font-size: 5rem;
+    text-transform: capitalize;
+    color: var(--nav-overlay-color);
+    font-family: 'Lobster';
+    letter-spacing: 0.2rem;
+}
+
+.prev__description_ingri {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 70%;
+    text-align: left;
+}
+
+.prev__description_ingri span {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: var(--nav-overlay-color);
+    font-family: 'GeneralSans-Regular';
+    letter-spacing: 0.2rem;
+}
+
+.prev__description_ingri p {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: var(--nav-overlay-color);
+    font-family: 'GeneralSans-Regular';
+    letter-spacing: 0.2rem;
 }
