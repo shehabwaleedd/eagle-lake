@@ -9,14 +9,7 @@ function App() {
   const [navOpen, setNavOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [isTablet, setIsTablet] = useState(false);
-  useEffect(() => {
-    if (navOpen) {
-      document.body.classList.add('no-scroll')
-    }
-    else {
-      document.body.classList.remove('no-scroll');
-    }
-  }, [isMobile, location, navOpen]);
+
   return (
     <div className="App">
       <AnimatePresence mode='wait'>
