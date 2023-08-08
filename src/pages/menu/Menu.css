@@ -89,7 +89,7 @@
 }
 
 .menu__item p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: capitalize;
     color: var(--title-color);
     font-family: 'GeneralSans-Regular';
