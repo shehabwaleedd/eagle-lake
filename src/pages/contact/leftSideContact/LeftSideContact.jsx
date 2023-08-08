@@ -2,6 +2,7 @@ import React from 'react'
 import './LeftSideContact.css'
 import { AiOutlineArrowUp } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+
 import { FiArrowUpRight } from 'react-icons/fi'
 const LeftSideContact = () => {
     const handleScrollToTop = () => {
