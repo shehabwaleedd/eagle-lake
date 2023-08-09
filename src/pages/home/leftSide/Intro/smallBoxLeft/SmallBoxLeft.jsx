@@ -7,7 +7,7 @@ const SmallBoxLeft = () => {
         <section className='smallLeft'>
             <div className="smallLeft__container">
                 <span>
-                    Experience the refined world of coffee and delectable cuisine, crafted with passion by our expert owner-baristas, in the heart of Saint-Tropez.
+                    Experience the refined world of coffee and delectable cuisine, crafted with passion by our expert owner-baristas, in the heart of Tinara River in Weligama.
                 </span>
                 <Link to="/about">
                     <p>More About Us</p>
