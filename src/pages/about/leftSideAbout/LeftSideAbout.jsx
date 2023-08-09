@@ -15,8 +15,12 @@ const LeftSideAbout = () => {
             </div>
             <div className="about__left-lower">
                 <div className="about__left-lower__imgs">
-                    <img src={partner1} alt="" />
-                    <img src={partner2} alt="" />
+                    <img src={partner1} alt=""
+                        srcSet={[`${partner1_300px}?w=300&format=webp 300w`]}
+                    />
+                    <img src={partner2} alt=""
+                        srcSet={[`${partner2_300px}?w=300&format=webp 300w`]}
+                    />
                 </div>
             </div>
         </section>
