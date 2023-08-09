@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fe8ba0e5.css",
-    "main.js": "/static/js/main.377b7181.js",
+    "main.js": "/static/js/main.2a79a262.js",
     "static/js/787.40f88452.chunk.js": "/static/js/787.40f88452.chunk.js",
     "static/media/klara-kulikova-yjQDnOhGE34-unsplash.webp": "/static/media/klara-kulikova-yjQDnOhGE34-unsplash.1bc89d71444e29bbdfc8.webp",
     "static/media/celine-ylmz-L2ost-ZEmK8-unsplash.webp": "/static/media/celine-ylmz-L2ost-ZEmK8-unsplash.2f89e680c3ba6fc666a3.webp",
@@ -28,6 +28,7 @@
     "static/media/GeneralSans-ExtralightItalic.woff": "/static/media/GeneralSans-ExtralightItalic.637cc7b537db1b5556d0.woff",
     "static/media/GeneralSans-Extralight.woff": "/static/media/GeneralSans-Extralight.efc4ce019c1e039a0ca4.woff",
     "static/media/pariwat-pannium-hMVvFEgCveQ-unsplash.webp": "/static/media/pariwat-pannium-hMVvFEgCveQ-unsplash.cba8747282d9b7fe48b9.webp",
+    "static/media/partner1_300.webp": "/static/media/partner1_300.d10910ef53d7128216f3.webp",
     "static/media/hot_latte.webp": "/static/media/hot_latte.55a6695efa0b9ece8811.webp",
     "static/media/GeneralSans-LightItalic.woff2": "/static/media/GeneralSans-LightItalic.c8c13d9aa739ec1adb02.woff2",
     "static/media/GeneralSans-Italic.woff2": "/static/media/GeneralSans-Italic.8c6daf7c32037313da66.woff2",
@@ -42,16 +43,17 @@
     "static/media/Snapinsta.app_365458990_817424473216067__n_1080.webp": "/static/media/Snapinsta.app_365458990_817424473216067_4087620759488714421_n_1080.ed0380bdc3527411cad6.webp",
     "static/media/364270819___n.webp": "/static/media/364270819_1644992125980445_904121171288080464_n.a5a9af313939eee1553d.webp",
     "static/media/yesmore-content-ywS7HzUNjuM-unsplash.webp": "/static/media/yesmore-content-ywS7HzUNjuM-unsplash.79d0b947b18e41b2ecdb.webp",
+    "static/media/partner2_300.webp": "/static/media/partner2_300.cf2308fb268744b09dc1.webp",
     "static/media/macciato.webp": "/static/media/macciato.ccb55178264f514cbf47.webp",
     "static/media/iced-white-chocolate-mocha.webp": "/static/media/iced-white-chocolate-mocha.a101c8b654feabe66182.webp",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.fe8ba0e5.css.map": "/static/css/main.fe8ba0e5.css.map",
-    "main.377b7181.js.map": "/static/js/main.377b7181.js.map",
+    "main.2a79a262.js.map": "/static/js/main.2a79a262.js.map",
     "787.40f88452.chunk.js.map": "/static/js/787.40f88452.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe8ba0e5.css",
-    "static/js/main.377b7181.js"
+    "static/js/main.2a79a262.js"
   ]
 }
