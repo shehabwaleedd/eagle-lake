@@ -21,6 +21,13 @@
     .about_home {
         justify-content: flex-start;
         gap: 2rem;
-        padding: 0.6rem;
+        padding: 1rem;
+        width: 100%;
+    }
+    .aboutUpper__container h1 {
+        font-size: 5rem;
+    }
+    .resv__button_about {
+        width: 105%;
     }
 }

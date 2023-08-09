@@ -33,3 +33,21 @@
     border-radius: 1.3rem;
     border: none;
 }
+
+@media (max-width: 469px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 0.2rem;
+        gap: 0.5rem;
+    }
+
+    .left__side-about {
+        width: 100%;
+        height: 100vh;
+    }
+    .right__side-about {
+        position: relative;
+        width: 100%;
+    }
+}

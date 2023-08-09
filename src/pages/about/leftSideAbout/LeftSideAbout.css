@@ -81,3 +81,22 @@
     border-radius: 1rem;
     object-fit: cover;
 }
+
+@media  (max-width: 469px) {
+    .about__left__container  {
+        height: 66vh;
+    }
+    .about__left__container h1 {
+        font-size: 3rem;
+    }
+
+    .about__left__container p {
+        font-size: 0.76rem;
+        width: 93%;
+    }
+
+    .about__left-lower__imgs img {
+        height: 12rem;
+        width: 12rem;
+    }
+}

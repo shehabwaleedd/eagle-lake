@@ -62,14 +62,16 @@
 @media (max-width: 469px) {
     .upperBox {
         width: 100%;
-        height: 30vh;
+        height: 50vh;
     }
 
     .upperBox__container h1 {
-        font-size: 3rem;
+        font-size: 2.6rem;
+        text-align: center;
     }
 
     .resv__button {
-        width: 50%;
+        width: 97%;
+        margin-top: 1rem;
     }
 }
