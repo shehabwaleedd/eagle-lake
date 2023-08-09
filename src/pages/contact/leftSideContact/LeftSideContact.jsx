@@ -8,7 +8,7 @@ const LeftSideContact = () => {
         <section className='contact_left'>
             <div className="contact_left-container">
                 <h1>Contact</h1>
-                <span>You can find us at Tinara River, Weligama 81700, Sri Lanka. As we are located in the heart of the city, the best way to get here is by taxi or on foot. If you would like to visit us by car, we recommend using one of the paid parking lots within the city center.</span>
+                <span>You can find us at Tinara River, Weligama, Sri Lanka. As we are located in the heart of the city, the best way to get here is by taxi or on foot. If you would like to visit us by car, we recommend using one of the paid parking lots within the city center.</span>
             </div>
             <div className="contact__left-bottom">
                 <div className="smallRight__cards-contact">

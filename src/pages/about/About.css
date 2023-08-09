@@ -1,0 +1,35 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+}
+.left__side-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 97vh;
+    border-radius: 1.3rem;
+}
+
+.right__side-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49.5%;
+    height: 97vh;
+    border: 1px solid var(--border-color);
+    border-radius: 1.3rem;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+
+.right__side-about iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.3rem;
+    border: none;
+}
