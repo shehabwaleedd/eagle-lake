@@ -37,7 +37,7 @@
     gap: 1rem;
     height: 100%;
     width: 100%;
-    
+
 }
 
 .menu__category {
@@ -141,6 +141,7 @@
     border-radius: 1.2rem;
     margin-top: 0.3rem;
 }
+
 .preview__close {
     position: absolute;
     top: 2rem;
@@ -195,6 +196,7 @@
     font-family: 'GeneralSans-Regular';
     letter-spacing: 0.1rem;
 }
+
 .prev__description_ingri p {
     font-size: 1rem;
     text-transform: capitalize;
@@ -216,9 +218,14 @@
         grid-template-columns: repeat(2, 1fr);
 
     }
+
     .menu__item img {
         height: 100%;
         width: 100%;
         object-fit: cover;
+    }
+
+    .menu__container h1 {
+        font-size: 3rem;
     }
 }

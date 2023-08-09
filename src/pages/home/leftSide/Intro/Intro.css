@@ -25,3 +25,14 @@
     bottom: 0;
     gap: 0.5rem;
 }
+
+@media (max-width: 469px) {
+    .intro__container {
+        height: 69vh;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+    .intro__bottom {
+        flex-direction: column;
+    }
+}

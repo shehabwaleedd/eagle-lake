@@ -57,3 +57,19 @@
 .resv__button:hover {
     background-color: var(--accent-color);
 }
+
+
+@media (max-width: 469px) {
+    .upperBox {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .upperBox__container h1 {
+        font-size: 3rem;
+    }
+
+    .resv__button {
+        width: 50%;
+    }
+}

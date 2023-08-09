@@ -126,7 +126,7 @@
 }
 .reservation__footer p {
     font-size: 1rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: var(--accent-color);
     font-family: 'GeneralSans-Regular';
     letter-spacing: 0.1rem;
@@ -157,4 +157,8 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+}
+
+@media  (max-width: 469px) {
+
 }
