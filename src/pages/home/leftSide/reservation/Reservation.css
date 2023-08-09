@@ -160,10 +160,6 @@
 }
 
 @media  (max-width: 469px) {
-
-    .reservation {
-        transform: translateX(0.5rem);
-    }
     .reservation__container h1  {
         font-size: 3rem;
     }

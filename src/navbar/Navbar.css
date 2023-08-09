@@ -132,6 +132,63 @@
     letter-spacing: 0.1rem;
 }
 
+
+@media (max-width: 935px) {
+    .nav__links  {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        width: 99.50%;    
+        height: 30vh;
+        background-color: var(--background-color);
+        border: 0.5px solid var(--border-color);
+    }
+    .nav__links ul {
+        display: flex;
+        gap: 1rem;
+        width: 80%;
+        position: relative;
+        padding-top: 4rem;
+    }
+    .nav__links ul li  {
+        font-size: 2rem;
+    }
+    .nav__logo h1 {
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 680px) {
+    .nav {
+        width: 93%;
+        left: 0.3em;
+    }
+    .nav__links  {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        width: 99.50%;    
+        height: 30vh;
+        background-color: var(--background-color);
+        border: 0.5px solid var(--border-color);
+    }
+    .nav__links ul {
+        display: flex;
+        gap: 1rem;
+        width: 80%;
+        position: relative;
+        padding-top: 4rem;
+    }
+    .nav__links ul li  {
+        font-size: 2rem;
+    }
+    .nav__logo h1 {
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+}
+
 @media (max-width: 560px) {
     .nav {
         width: 90%;

@@ -36,7 +36,6 @@
     .about_home {
         height: 101vh;
         width: 100%;
-        transform: translateX(0.5rem);
     }
     .about__container_home {
         gap: 1rem;

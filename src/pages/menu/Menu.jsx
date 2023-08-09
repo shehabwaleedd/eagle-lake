@@ -54,6 +54,7 @@ const Menu = () => {
                                             onMouseLeave={closeItem}
                                             loading='lazy'
                                             srcSet={[`${img_300px}?w=300&format=webp 300w`]}
+                                            onClick={() => openPreview(image, description, ingredients, name, price)}
                                         >
                                             <img src={image} alt={name} />
                                             <p>{name}</p>
@@ -73,9 +74,9 @@ const Menu = () => {
                         transition={{ duration: 0.5 }}
                         exit={{ opacity: 0, y: 100 }}
                     >
-                        {/* <div className='preview__close'>
-                                <button onClick={closeItem}>X</button>
-                            </div> */}
+                        <div className='preview__close'>
+                            <button onClick={closeItem}>X</button>
+                        </div>
                         <motion.div className='preview__content'>
                             <motion.img initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} exit={{ opacity: 0, y: 100 }} src={selectedImage} alt='Preview' />
                             <div className="preview__description">

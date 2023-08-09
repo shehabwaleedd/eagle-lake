@@ -143,6 +143,7 @@
 }
 
 .preview__close {
+    display: none;
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -209,7 +210,7 @@
     font-size: 2rem;
     text-transform: uppercase;
     color: var(--accent-color);
-    font-family: 'GeneralSans-Regular';
+    font-family: 'GeneralSans-Italic';
     letter-spacing: 0.1rem;
 }
 
@@ -218,11 +219,6 @@
         grid-template-columns: repeat(2, 1fr);
 
     }
-
-    .menu {
-        transform: translateX(0.5rem);
-    }
-
     .menu__item img {
         height: 100%;
         width: 100%;
@@ -231,5 +227,51 @@
 
     .menu__container h1 {
         font-size: 2.5rem;
+    }
+
+    .preview__modal {
+        position: fixed;
+        width: 100%;
+        min-height: 80vh;
+        left: 0%;
+        top: 8rem;
+    }
+    .preview__content {
+        gap: 2rem;
+    }
+    .preview__content img {
+        width: 23rem;
+        height: 20rem;
+        object-fit: cover;
+        transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+        border-radius: 1.2rem;
+        margin-top: 0.3rem;
+
+    }
+    .preview__description {
+        gap: 0.5rem;
+    }
+    .preview__description h1 {
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+    .preview__close button {
+        color: var(--container-color);
+    }    
+    .preview__close {
+        display: block;
+    }
+    .prev__description_ingri p {
+        font-size: 0.8rem;
+    }
+    .prev__description_ingri {
+        width: 100%;
+    }
+    .prev__description_ingri span {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .prev__description_price span {
+        font-size: 1.4rem;
     }
 }

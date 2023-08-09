@@ -27,6 +27,7 @@
     gap: 0.5rem;
 }
 
+
 @media (max-width: 469px) {
     .intro {
         width: 100%;
@@ -46,7 +47,6 @@
     .intro {
         height: 121vh;
         width: 100%;
-        transform: translateX(0.5rem);
     }
     .intro__container {
         gap: 1rem;
