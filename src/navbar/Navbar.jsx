@@ -36,10 +36,9 @@ const Navbar = ({ setNavOpen, navOpen, setIsMobile, setIsTablet, isTablet, isMob
         <motion.nav
             className={`nav ${navOpen ? 'open' : ''}`}
             initial={{ height: '4rem',transition: { velocity: 2, staggerChildren: 1.5, duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
-            animate={{ height: navOpen ? '8.5rem' : '4rem',transition: { velocity: 2, staggerChildren: 1.5, duration: 0.5, ease: [0.42, 0, 0.58, 1] }}}
+            animate={{ height: navOpen ? '6.5rem' : '4rem',transition: { velocity: 2, staggerChildren: 1.5, duration: 0.5, ease: [0.42, 0, 0.58, 1] }}}
             exit={{ height: '4rem',transition: { velocity: 2, staggerChildren: 1.5, duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
-            style={{ backgroundColor: navOpen ? 'var(--container-color)' : 'var(--background-color)'}}
-
+            style={{ backgroundColor: navOpen ? 'var(--container-color)' : 'var(--background-color)', borderBottomLeftRadius: navOpen ? "0" : "1rem", borderBottomRightRadius: navOpen ? "0" : "1rem"}}
         >
             <div className="nav__container">
                 <div className="nav__left">
@@ -64,7 +63,11 @@ const Navbar = ({ setNavOpen, navOpen, setIsMobile, setIsTablet, isTablet, isMob
             </div>
             <AnimatePresence mode='wait'>
                 {navOpen && (
-                    <motion.div className="nav__links">
+                    <motion.div className="nav__links"
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -20 }}
+                    >
                         <ul>
                             <li>
                                 <Link to="/" onClick={() => setNavOpen(!navOpen)}>Home</Link>

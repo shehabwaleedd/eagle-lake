@@ -1,12 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './LeftSideAbout.css'
-import partner1 from "../../../assets/partner1.webp"
-import partner1_300px from "../../../assets/partner1_300.webp"
-import partner2 from "../../../assets/partner2.webp"
-import partner2_300px from "../../../assets/partner2_300.webp"
-import { Link } from 'react-router-dom'
+import Data from './Data'
+import { AnimatePresence, motion } from 'framer-motion';
 
 const LeftSideAbout = () => {
+    const [selectedImage, setSelectedImage] = useState(null);
+    const [selectedDescription, setSelectedDescription] = useState(null);
+    const [selectedName, setSelectedName] = useState(null);
+
+    const openPreview = (image, description, name) => {
+        setSelectedImage(image);
+        setSelectedDescription(description);
+        setSelectedName(name);
+    };
+    const closeItem = () => {
+        setSelectedImage(null)
+    }
     return (
         <section className='about__left'>
             <div className="about__left__container">
@@ -15,14 +24,35 @@ const LeftSideAbout = () => {
             </div>
             <div className="about__left-lower">
                 <div className="about__left-lower__imgs">
-                    <img src={partner1} alt=""
-                        srcSet={[`${partner1_300px}?w=300&format=webp 300w`]}
-                    />
-                    <img src={partner2} alt=""
-                        srcSet={[`${partner2_300px}?w=300&format=webp 300w`]}
-                    />
+                    {Data.map(({ id, img, img_300px, alt, desc, name }, index) => (
+                        <div onMouseEnter={() => openPreview(img, desc, name)} onMouseLeave={closeItem}>
+                            <img src={img}
+                                loading='lazy'
+                                srcSet={[`${img_300px}?w=300&format=webp 300w`]}
+                                alt={alt}
+                                key={index}
+
+                            />
+                        </div>
+                    ))}
                 </div>
             </div>
+            <AnimatePresence mode='wait'>
+                {selectedImage && (
+                    <motion.div className="about__left-lower__preview"
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: 50 }}
+                        transition={{ duration: 0.3 }}
+                    >
+                        <img src={selectedImage} alt={selectedDescription} />
+                        <div className="about__left_description">
+                            <h1>{selectedName}</h1>
+                            <p>{selectedDescription}</p>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </section>
     )
 }

@@ -8,7 +8,7 @@ const MainImage = () => {
     return (
         <div className='mainImage'>
             <div className="upper__container">
-                <TextSliderAuto TextData={Data} SlideInterValTime={1000} />
+                <TextSliderAuto TextData={Data} SlideInterValTime={5000} />
             <FindUs />
             </div>
             <ImageSliderAuto ImageData={Data} SlideInterValTime={10000} />
@@ -17,3 +17,7 @@ const MainImage = () => {
 }
 
 export default MainImage
+
+// open right now! Mo - Fr 7AM - 10PM , Weekends 8AM - 11PM
+// Monday - Friday:  7 AM : 10:00 PM
+// Join us foor a tase of finest brews and bites at our cafe.

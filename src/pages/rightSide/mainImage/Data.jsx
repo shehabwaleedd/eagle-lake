@@ -14,19 +14,19 @@ const Data = [
         ImageNo: '2',
         ImageName: 'img_nature',
         ImageSrc: Img2,
-        TextContainer: 'W'
+        TextContainer: 'Open right now! Mo - Fr 7AM - 10PM, Weekends 8AM - 11PM'
     },
     {
         ImageNo: '6',
         ImageName: 'img_lights',
         ImageSrc: Img6,
-        TextContainer: 'Weekends: 8:00 - 23:00'
+        TextContainer: 'Monday - Friday:  7 AM : 10:00 PM'
     },
     {
         ImageNo: '7',
         ImageName: 'img_forest',
         ImageSrc: Img7,
-        TextContainer: 'Weekends: 8:00 - 23:00'
+        TextContainer: 'Join us foor a tase of finest brews at our cafe'
     }
 ];
 

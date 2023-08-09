@@ -113,7 +113,7 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(141, 141, 141, 0.3);
+    border: 1px solid rgba(103, 103, 103, 0.5);
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -163,13 +163,17 @@
 }
 
 .preview__description {
-    width: 100%;
+    width: 98%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.5rem;
+    border: 1px solid var(--text-color);
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 .preview__description h1 {

@@ -1,24 +1,29 @@
 import React, { useEffect, useState } from 'react';
-import Img5 from "../../../../assets/nathan-dumlao-JLPoB3Gahcc-unsplash.webp"
-import Img6 from "../../../../assets/celine-ylmz-L2ost-ZEmK8-unsplash.webp"
-import Img7 from "../../../../assets/klara-kulikova-yjQDnOhGE34-unsplash.webp"
+import Img5 from '../../../../assets/nathan-dumlao-JLPoB3Gahcc-unsplash.webp';
+import Img6 from '../../../../assets/celine-ylmz-L2ost-ZEmK8-unsplash.webp';
+import Img7 from '../../../../assets/klara-kulikova-yjQDnOhGE34-unsplash.webp';
 
 const ImageSliderAuto = (props) => {
     const [scrollPosition, setScrollPosition] = useState(0);
     const [countAuto, setCountAuto] = useState(0);
+    const [isImageVisible, setIsImageVisible] = useState(false);
 
     useEffect(() => {
         const updatePosition = () => {
             setScrollPosition(window.pageYOffset);
-        }
-        window.addEventListener("scroll", updatePosition);
+        };
+        window.addEventListener('scroll', updatePosition);
         updatePosition();
-        return () => window.removeEventListener("scroll", updatePosition);
+        return () => window.removeEventListener('scroll', updatePosition);
     }, []);
 
     const handleAutoSlider = () => {
         const interval = setInterval(() => {
-            setCountAuto((prevCount) => (prevCount + 1) % props.ImageData.length);
+            setIsImageVisible(false); // Hide the image
+            setTimeout(() => {
+                setCountAuto((prevCount) => (prevCount + 1) % props.ImageData.length);
+                setIsImageVisible(true); // Show the image after changing count
+            }, 200); // Wait for the exit animation to finish
         }, props.SlideInterValTime);
 
         return () => clearInterval(interval);
@@ -42,7 +47,11 @@ const ImageSliderAuto = (props) => {
     const finalImageSrc = scrollPosition > 1200 ? autoSliderImage : imageSrc;
 
     return (
-        <img src={finalImageSrc} className='imageStyle visible' alt={props.ImageData[countAuto].ImageName} />
+        <img
+            src={finalImageSrc}
+            className={`imageStyle ${isImageVisible ? 'visible' : 'hidden'}`}
+            alt={props.ImageData[countAuto].ImageName}
+        />
     );
 };
 
