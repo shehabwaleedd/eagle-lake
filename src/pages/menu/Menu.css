@@ -214,10 +214,11 @@
 @media (max-width: 560px) {
     .menu__category-items {
         grid-template-columns: repeat(2, 1fr);
+
     }
     .menu__item img {
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
         object-fit: cover;
     }
 }
