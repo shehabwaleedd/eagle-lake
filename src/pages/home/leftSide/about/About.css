@@ -31,3 +31,22 @@
         width: 105%;
     }
 }
+
+@media (max-width: 380px) {
+    .about_home {
+        height: 101vh;
+        width: 100%;
+        transform: translateX(0.5rem);
+    }
+    .about__container_home {
+        gap: 1rem;
+        height: 100%;
+        width: 100%;
+    }
+    .aboutUpper__container h1 {
+        font-size: 4.2rem;
+    }
+    .resv__button_about {
+        width: 105%;
+    }
+}

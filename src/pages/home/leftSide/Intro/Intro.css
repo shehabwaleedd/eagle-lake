@@ -41,3 +41,20 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 380px) {
+    .intro {
+        height: 121vh;
+        width: 100%;
+        transform: translateX(0.5rem);
+    }
+    .intro__container {
+        gap: 1rem;
+        height: 100%;
+        width: 100%;
+    }
+    .intro__bottom {
+        height: 55vh;
+        gap: 1rem;
+    }
+}

@@ -75,3 +75,16 @@
         margin-top: 1rem;
     }
 }
+
+@media (max-width: 380px) {
+        .upperBox {
+        width: 100%;
+        height: 60vh;
+    }
+    .upperBox__container h1 {
+        font-size: 2.2rem;
+    }
+        .resv__button {
+        width: 95%;
+    }
+}
