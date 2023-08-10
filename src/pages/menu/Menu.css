@@ -287,4 +287,7 @@
     .menu {
         width: 98%;
     }
+    .preview__modal {
+        left: 52.5%;
+    }
 }
