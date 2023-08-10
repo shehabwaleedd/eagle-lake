@@ -167,5 +167,11 @@
         height: 40%;
         width: 100%;
     }
-    
+    .reservation__footer p {
+    font-size: 0.9rem;
+}
+    reservation__footer span {
+    font-size: 0.75rem;
+    letter-spacing: 0rem;
+}
 }
