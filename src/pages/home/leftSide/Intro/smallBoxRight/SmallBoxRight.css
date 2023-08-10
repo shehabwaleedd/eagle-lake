@@ -71,3 +71,16 @@
     font-family: 'GeneralSans-Light';
     letter-spacing: 0.1rem;
 }
+
+@media (min-width: 1680px) {
+
+    .smallRight__card {
+        padding: 0rem 0;
+    }
+    .smallRight__container {
+        margin-top: 7rem;
+    }
+    .smallRight__card-end {
+        padding-bottom: 1rem;
+    }
+}

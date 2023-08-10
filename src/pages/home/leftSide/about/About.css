@@ -49,3 +49,15 @@
         width: 105%;
     }
 }
+
+@media (min-width: 1680px) {
+    .about_home {
+        width: 96%;
+        height: 102vh;
+    }
+    .about__container_home {
+        width: 96%;
+        padding-top: 0rem;
+        transform: translateX(1.2rem);
+    }
+}

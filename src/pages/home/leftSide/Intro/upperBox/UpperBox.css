@@ -97,3 +97,10 @@
         width: 95%;
     }
 }
+
+@media (min-width: 1680px) {
+    .upperBox {
+        width: 50vw;
+        height: 66vh;
+    }
+}
