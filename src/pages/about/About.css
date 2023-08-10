@@ -65,3 +65,16 @@
         width: 100%;
     }
 }
+
+@media (min-width: 1680px) {
+    .about {
+        padding: 1rem;
+    }
+    .left__side-about {
+        height: 97vh;
+        width: 99%;
+    }
+    .right__side-about {
+        height: 96vh;
+    }
+}

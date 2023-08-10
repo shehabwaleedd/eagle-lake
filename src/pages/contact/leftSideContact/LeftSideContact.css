@@ -157,3 +157,22 @@
         height: 10vh;
     }
 }
+
+@media (min-width: 1680px) {    
+    .contact_left-container {
+        width: 98%;
+    }
+    .contact__left-bottom {
+        width: 98%;
+    }
+    .contact__footer {
+        width: 96%;
+    }
+    .smallRight__card-end-contact {
+        padding-bottom: 1rem;
+    }
+    .smallRight__card {
+        padding-top: 0.4rem;
+    }
+    
+}
