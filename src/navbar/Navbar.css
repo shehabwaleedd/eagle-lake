@@ -198,6 +198,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        z-index: 9999999;
     }
     .nav__logo h1 {
         font-size: 1.2rem;
@@ -214,6 +215,8 @@
         width: 99.50%;    
         height: 30vh;
         background-color: var(--background-color);
+        z-index: 1;
+        border-radius: 1rem;
     }
     .nav__links ul {
         display: flex;
@@ -224,5 +227,15 @@
     }
     .nav__links ul li  {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .nav__container {
+        padding: 0 1rem;
+    }
+    .nav__links ul {
+        position: relative;
+        left: 1rem;
     }
 }
