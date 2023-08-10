@@ -279,3 +279,12 @@
         font-size: 1.4rem;
     }
 }
+
+@media (min-width: 1685px) {
+    .menu__container {
+        width: 98%;
+    }
+    .menu {
+        width: 98%;
+    }
+}
