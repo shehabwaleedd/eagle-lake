@@ -19,7 +19,7 @@
     padding: 0.5rem;
     gap: 2rem;
     height: 54vh;
-    width: 97%;
+    width: 100%;
 }
 
 .contact_left-container h1 {
@@ -51,7 +51,7 @@
     padding: 0.5rem;
     gap: 2rem;
     height: 30.5vh;
-    width: 97%;
+    width: 100%;
 }
 .smallRight__cards-contact {
     display: flex;
@@ -113,7 +113,7 @@
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    width: 95%;
+    width: 100%;
     position: relative;
     bottom: 0rem;
     border: 1px solid var(--border-color);

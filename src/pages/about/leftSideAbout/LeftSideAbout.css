@@ -17,18 +17,19 @@
     border: 1px solid var(--border-color);
     border-radius: 1rem;
     padding: 0.5rem;
-    height: 50vh;
-    width: 97.5%;
+    height: 60vh;
+    width: 100%;
 }
 
 .about__left__container h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: capitalize;
     color: var(--title-color);
     font-family: 'Lobster';
     letter-spacing: 0.2rem;
     position: relative;
-    top: 2rem;
+    top: 4rem;
+    padding-bottom: 5rem;
 }
 
 .about__left__container p {
@@ -49,8 +50,8 @@
     border-radius: 1rem;
     padding: 0.5rem;
     gap: 2rem;
-    height: 100%;
-    width: 97.3%;
+
+    width: 100%;
 }
 
 .about__left-lower__imgs {
