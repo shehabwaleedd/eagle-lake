@@ -212,8 +212,8 @@
         position: absolute;
         top: 0rem;
         left: 0rem;
-        width: 99.50%;    
-        height: 30vh;
+        width: 91.50%;    
+        height: 20vh;
         background-color: var(--background-color);
         z-index: 1;
         border-radius: 1rem;
@@ -221,9 +221,10 @@
     .nav__links ul {
         display: flex;
         gap: 1rem;
-        width: 80%;
+        width: 81%;
         position: relative;
         padding-top: 4rem;
+        left: 0;
     }
     .nav__links ul li  {
         font-size: 2rem;
@@ -235,8 +236,12 @@
         padding: 0 1rem;
     }
     .nav__links ul {
+        display: flex;
+        gap: 1rem;
+        width: 81%;
         position: relative;
-        left: 1rem;
+        padding-top: 4rem;
+        left: -1.2rem;
     }
 }
 
