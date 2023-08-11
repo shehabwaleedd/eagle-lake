@@ -61,6 +61,7 @@
 }
     .left__side {
         width: 99%;
+        margin-left: 0.1rem;
     }
     .right__side {
         width: 46.5%;
