@@ -143,6 +143,7 @@
 @media  (max-width: 469px) {
     .about__left__container  {
         height: 66vh;
+        width: 95%;
     }
     .about__left__container h1 {
         font-size: 3rem;

@@ -145,6 +145,7 @@
     }
     .contact_left-container {
         height: 80vh;
+        width: 95%;
     }
     .contact_left-container span {
         font-size: 1rem;
@@ -155,6 +156,15 @@
     }
     .contact__footer {
         height: 10vh;
+    }
+}
+
+@media (max-width: 380px) {
+    .contact_left {
+        height: 122vh;
+    }
+    .contact_left-container  {
+        height: 55vh;
     }
 }
 
