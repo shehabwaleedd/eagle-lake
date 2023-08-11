@@ -232,7 +232,9 @@
     .menu__container h1 {
         font-size: 2.5rem;
     }
-
+    .menu__container  {
+        width: 96%;
+    }
     .preview__modal {
         position: fixed;
         width: 100%;
@@ -253,6 +255,8 @@
 
     }
     .preview__description {
+
+        width: 90%;
         gap: 0.5rem;
     }
     .preview__description h1 {

@@ -162,6 +162,9 @@
 }
 
 @media (max-width: 469px) {
+    .reservation__container {
+        width: 96%;
+    }
     .reservation__container h1 {
         font-size: 3rem;
     }
