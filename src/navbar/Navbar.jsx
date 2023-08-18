@@ -35,9 +35,9 @@ const Navbar = ({ setNavOpen, navOpen, setIsMobile, setIsTablet, isTablet, isMob
     return (
         <motion.nav
             className={`nav ${navOpen ? 'open' : ''}`}
-            initial={{ height: '4rem',transition: { velocity: 2, staggerChildren: 1.5, duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
-            animate={{ height: navOpen ? '4.5rem' : '4rem',transition: { velocity: 2, staggerChildren: 1.5, duration: 0.5, ease: [0.42, 0, 0.58, 1] }}}
-            exit={{ height: '4rem',transition: { velocity: 2, staggerChildren: 1.5, duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
+            initial={{y: -50 , height: '4rem',transition: { velocity: 2, staggerChildren: 1.5, duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
+            animate={{y: 0 , height: navOpen ? '4.4rem' : '4rem',transition: { velocity: 2, staggerChildren: 1.5, duration: 0.5, ease: [0.42, 0, 0.58, 1] }}}
+            exit={{y: -250 , height: '4rem',transition: { velocity: 2, staggerChildren: 1.5, duration: 0.5, ease: [0.42, 0, 0.58, 1] } }}
             style={{ backgroundColor: navOpen ? 'var(--container-color)' : 'var(--background-color)', borderBottomLeftRadius: navOpen ? "0" : "1rem", borderBottomRightRadius: navOpen ? "0" : "1rem"}}
         >
             <div className="nav__container">
