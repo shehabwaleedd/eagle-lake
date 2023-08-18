@@ -73,3 +73,10 @@
     text-transform: capitalize;
     letter-spacing: 0.03rem;
 }
+
+@media (min-width: 1668px) {
+    .findus {
+        bottom: -55rem;
+        right: -0.5rem;
+    }
+}

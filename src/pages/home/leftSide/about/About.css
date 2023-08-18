@@ -60,11 +60,10 @@
 @media (min-width: 1680px) {
     .about_home {
         width: 100%;
-        height: 102vh;
+        height: 99.45vh;
     }
     .about__container_home {
-        width: 98.5%;
+        width: 100%;
         padding-top: 0rem;
-        transform: translateX(-0.2rem);
     }
 }

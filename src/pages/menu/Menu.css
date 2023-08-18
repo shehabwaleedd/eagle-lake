@@ -286,10 +286,10 @@
 
 @media (min-width: 1685px) {
     .menu__container {
-        width: 98%;
+        width: 100%;
     }
     .menu {
-        width: 98%;
+        width: 100%;
     }
     .preview__modal {
         left: 52.5%;

@@ -185,18 +185,18 @@
 
 @media (min-width: 1680px) {
     .about__left__container {
-        width: 98%;
+        width: 100%;
     }
     .about__left-lower__imgs img {
         height: 20rem;
         width: 20rem;
     }
     .about__left-lower {
-        width: 98%;
+        width: 100%;
     }
     .about__left-lower__preview {
         right: -38rem;
-        width: 80%;
+        width: 81%;
     }
     .about__left-lower__preview img  {
         width: 60%;

@@ -178,20 +178,15 @@
 }
 
 @media (min-width: 1680px) {    
-    .contact_left-container {
-        width: 98%;
-    }
-    .contact__left-bottom {
-        width: 98%;
-    }
-    .contact__footer {
-        width: 96%;
-    }
+
     .smallRight__card-end-contact {
-        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
-    .smallRight__card {
-        padding-top: 0.4rem;
+    .smallRight__card h1 {
+        padding-bottom: 0.5rem;
+    }
+    .smallRight__card-contact h1:first-child {
+        padding-top: 1rem;
     }
     
 }
