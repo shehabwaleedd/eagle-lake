@@ -146,5 +146,8 @@
     letter-spacing: 0.1rem;
 }
 
-@media (max-width: 490px) {
+@media (min-width: 1690px) {    
+    .aboutUpper__container {
+        gap: 4rem;
+    }
 }
