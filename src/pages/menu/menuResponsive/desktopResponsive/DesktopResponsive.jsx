@@ -46,13 +46,13 @@ const DesktopResponsive = ({ Data, selectedImage, closeItem, selectedName, openP
                         <motion.div className='preview__content'>
                             <motion.img initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} exit={{ opacity: 0, y: 100 }} src={selectedImage} alt='Preview' />
                             <div className="preview__description">
-                                <h1>{selectedName}</h1>
+                                <div className="description__upper">
+                                    <h1>{selectedName}</h1>
+                                    <span>{selectedPrice}</span>
+                                </div>
                                 <div className="prev__description_ingri">
                                     <span>{selectedDescription}</span>
                                     <p>Ingredients: {selectedIngredients.join(', ')}</p>
-                                </div>
-                                <div className="prev__description_price">
-                                    <span>Price: {selectedPrice}</span>
                                 </div>
                             </div>
                         </motion.div>
