@@ -169,7 +169,7 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 1.5rem;
-    border: 1px solid var(--text-color);
+    border: 0.3px solid #b1b1b1;
     margin-top: 1rem;
     border-radius: 1rem;
     padding: 1rem;
