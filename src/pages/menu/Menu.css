@@ -105,10 +105,10 @@
 
 .preview__modal {
     position: fixed;
-    top: 0%;
-    left: 46.8rem;
-    width: 48%;
-    height: 103%;
+    top: 2%;
+    left: 45.8rem;
+    width: 49%;
+    height: 100%;
     background: rgba(250, 247, 237, 0.652);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(180px);
